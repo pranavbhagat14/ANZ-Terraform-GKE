@@ -2,7 +2,7 @@ terraform {
   required_version = ">= 1.3.0"
 
   backend "gcs" {
-    bucket = "pranav-dev-bucket"         # ✅ Your existing bucket
+    bucket = "pranav-dev-bucket"           # ✅ Your existing bucket
     prefix = "gke-cluster/terraform-state" # ✅ Folder path inside the bucket
   }
 
